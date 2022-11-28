@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GRADING APP</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="enter_grades">ENTER GRADES</string>
+    <string name="first_name">First Name : </string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="last_name">Last Name : </string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="course">Course : </string>
+    <string name="credits">Credits : </string>
+    <string name="credit1">1</string>
+    <string name="credit2">2</string>
+    <string name="credit3">3</string>
+    <string name="credit4">4</string>
+    <string name="marks">Marks : </string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="view_grades">VIEW GRADES</string>
+    <string name="search_grades">SEARCH GRADES</string>
+    <string name="search_by">Search By : </string>
+    <string name="id">ID</string>
+    <string name="program_code">Program Code</string>
+    <string name="id_number">ID Number : </string>
+    <string name="enter_id_number">Enter ID Number</string>
+    <string name="search_button">SEARCH</string>
+    <string name="enter_program_code">Program Code : </string>
+    <string name="recycle_id">ID</string>
+    <string name="recycle_firstname">FIRST NAME</string>
+    <string name="recycle_lastname">LAST NAME</string>
+    <string name="recycle_course">COURSE</string>
+    <string name="recycle_credits">CREDITS</string>
+    <string name="recycle_marks">MARKS</string>
+    <string name="menu_grade_entry">Grade Entry</string>
+    <string name="menu_view_grades">View Grades</string>
+    <string name="menu_search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/enter_grades"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/first_name"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textview1"
+        />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/textview1"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textview2"
+        android:layout_toRightOf="@+id/textview2"
+        android:gravity="center"
+        android:hint="@string/enter_first_name"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/last_name"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textview2"
+        />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/edittext1"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textview3"
+        android:layout_toRightOf="@+id/textview3"
+        android:gravity="center"
+        android:hint="@string/enter_last_name"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/course"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textview3"
+        />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/edittext2"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textview4"
+        android:layout_toRightOf="@+id/textview4"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/credits"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textview4"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/listview"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textview5"
+        android:layout_toRightOf="@+id/textview5"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit1"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit2"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit3"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit4"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/marks"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textview5"
+        />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/radiogroup1"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textview6"
+        android:layout_toRightOf="@+id/textview6"
+        android:gravity="center"
+        android:hint="@string/enter_marks"
+        android:inputType="numberDecimal"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/submit_button" />
+
+</RelativeLayout>
